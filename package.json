@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nevehallon.github.io/my-app/",
+  "homepage": "https://nevehallon.github.io/my-app",
   "dependencies": {
     "debug": "^3.1.0",
     "react": "^16.4.2",
