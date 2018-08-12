@@ -5,7 +5,6 @@ class FindMe extends Component {
     render() {
         return (
             <div id="find-me">
-            <br/>
                 <h2>FIND ME</h2>
                 <hr class="star-dark"></hr>
                 <div class="container">
