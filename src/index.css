@@ -32,6 +32,7 @@ ul {
   grid-template-columns: 2fr 0.5fr 2fr;
   list-style-type: none;
   grid-gap: 10px;
+  -webkit-padding-start: 0;
 }
 
 nav {
@@ -201,7 +202,7 @@ h2 {
 #find-me > h2 {
   text-align: center;
   place-self: center;
-  padding: 30px 0 0 0;
+  padding: 40px 0 0 0;
 }
 
 .container {
