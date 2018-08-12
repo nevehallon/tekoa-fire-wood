@@ -187,14 +187,16 @@ class WorkPortfolio extends Component {
                 con: 4,
                 this: this,
                 title: 'Personal web-site template',
-                url: 'https://nevehallon.github.io/Neighborhood-Map-React/', 
+                url: 'https://nevehallon.github.io/my-app/', 
                 description: 'Page utilizes a css-Grid layout. It has Cross-Device Compatibility making use of responsive images, implemented error free, with media-queries. This project really gave me an opportunity to solidify my sense of branding and aesthetics by taking control of the style and layout of the page. I am confident in my ability to create and provide solutions with functionality built right in.', 
                 extra: `This site was built using:
                 React,
                 CSS,
                 JavaScript,
                 ☕️ & 🎧`,
-                custom: null
+                custom: <div>
+                Check the online demo <a target="_blank" href="https://nevehallon.github.io/my-app/">here</a>
+              </div>
             }, 
             {
                 id: img5,  
