@@ -252,7 +252,7 @@ h2 {
 }
 
 .sum {
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova", sans-serif;
   text-align: start;
   font-size: 15px;
   line-height: 1.8em;
@@ -261,6 +261,8 @@ h2 {
   font-weight: 300;
   font-style: normal;
   margin: 0 0 1em;
+  background-color: white;
+  opacity: 0.9;
 }
 
 footer {
