@@ -78,7 +78,7 @@ img {
   min-width: 100px;
   width: 100%;
   height: auto;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black !important;
 }
 
 img:hover {
