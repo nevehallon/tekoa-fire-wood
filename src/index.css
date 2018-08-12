@@ -13,6 +13,17 @@ body {
 }
 
 #top-nav {
+  background-image: url("https://www.freelogoservices.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfXlYeW8BVCjkKUgzNoYzZM...QZrkSQ7w6wytLhuJxwF4FkChBUGccA=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 210px;
+  background-color: var(--grey);
+  min-height: calc(100vh - 100px);
+  margin-bottom: 100px;
+  letter-spacing: -1px;
+}
+
+#top-nav {
   display: grid;
 }
 
