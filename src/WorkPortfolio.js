@@ -168,7 +168,7 @@ class WorkPortfolio extends Component {
                 con: 3,
                 this: this,
                 title: 'Memory Game',
-                url: 'https://github.com/nevehallon/fend-project-memory-game-2', 
+                url: 'https://nevehallon.github.io/memory-game/', 
                 description: 'Matching game that require players to match similar elements. As the name implies, participants need to find a match of a picture on a card. For example, cards composed of 15 pairs, are face down in random order. The Player turns over two cards at a time, with the goal of turning over a matching pair, by using their memory. For more advanced gameplay, try and beat your best time with the fewest amount of moves. (the fewer the moves the more stars you get ⭐️ 🌟 ⭐️) - A fun game that gave me valuable insight into giving a page functionality using only vanilla Javascript. No JQuery needed!', 
                 extra: `This site was built using:
                 Font Awesome,
@@ -179,7 +179,7 @@ class WorkPortfolio extends Component {
                 JavaScript,
                 ☕️ & 🎧`,
                 custom: <div>
-                Check out the Github repo <a target="_blank" href="https://github.com/nevehallon/fend-project-memory-game-2">here</a>
+                Check the online demo <a target="_blank" href="https://nevehallon.github.io/memory-game/">here</a>
               </div>
             }, 
             {
