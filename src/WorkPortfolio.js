@@ -152,7 +152,7 @@ class WorkPortfolio extends Component {
                 con: 2,
                 this: this, 
                 title: 'My Reads',
-                url: 'https://github.com/nevehallon/reactnd-project-myreads-starter', 
+                url: 'https://nevehallon.github.io/reactnd-project-myreads-starter/', 
                 description: 'In the MyReads project, I have created a bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read. The project emphasizes using React to build the application and provides an API server and client library that was use to persist information as you interact with the application.', 
                 extra: `This site was built using:
                 React,
@@ -160,7 +160,7 @@ class WorkPortfolio extends Component {
                 JavaScript,
                 ☕️ & 🎧`,
                 custom: <div>
-                Check out the Github repo <a target="_blank" href="https://github.com/nevehallon/reactnd-project-myreads-starter">here</a>
+                Check the online demo <a target="_blank" href="https://nevehallon.github.io/reactnd-project-myreads-starter/">here</a>
               </div>
             }, 
             {
