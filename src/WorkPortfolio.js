@@ -203,7 +203,7 @@ class WorkPortfolio extends Component {
                 con: 5,
                 this: this,
                 title: 'Feed Reader Testing',
-                url: 'https://nevehallon.github.io/Neighborhood-Map-React/', 
+                url: 'https://nevehallon.github.io/frontend-nanodegree-feedreader/', 
                 description: 'This project is based on the concept of test-driven JavaScript programming. Here, I have used the starter code given by Udacity and the jasmine testing framework to create a series of test suites for the long-term efficiency of my application. Not much went into the design or layout but a lot was learned about taking a test driven approach to development.', 
                 extra: `This site was built using:
                 Jasmine 2.2 testing framework,
@@ -217,7 +217,7 @@ class WorkPortfolio extends Component {
                 JavaScript,
                 ☕️ & 🎧`,
                 custom: <div>
-                Check out the Github repo <a target="_blank" href="https://github.com/nevehallon/frontend-nanodegree-feedreader">here</a>
+                Check the online demo <a target="_blank" href="https://nevehallon.github.io/frontend-nanodegree-feedreader/">here</a>
               </div>
             }, 
             {
@@ -225,7 +225,7 @@ class WorkPortfolio extends Component {
                 con: 6,
                 this: this,
                 title: 'Restaurant Reviews',
-                url: 'https://github.com/nevehallon/mws-restaurant-stage-1', 
+                url: 'https://nevehallon.github.io/mws-restaurant-stage-1/', 
                 description: 'A fully responsive and accessable page Using Cache API and a ServiceWorker, the data is cached for the website so that any page (including images) that has been visited is accessible offline.', 
                 extra: `This site was built using:
                 JQuery,
@@ -233,7 +233,7 @@ class WorkPortfolio extends Component {
                 JavaScript,
                 ☕️ & 🎧`,
                 custom: <div>
-                Check out the Github repo <a target="_blank" href="https://github.com/nevehallon/mws-restaurant-stage-1">here</a>
+                Check the online demo <a target="_blank" href="https://nevehallon.github.io/mws-restaurant-stage-1/">here</a>
               </div>
             } 
         ]
