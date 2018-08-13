@@ -288,7 +288,7 @@ footer:hover {
 
 .ReactModal__Content {
   display: grid;
-  width: 60%;
+  width: 80%;
   height: 80%;
 } 
 
@@ -330,7 +330,7 @@ outline: 1px solid slategrey;
 
 .project-meta > a > img {
   display: grid;
-  width: 50%;
+  width: 70%;
   justify-self: center;
 }
 
