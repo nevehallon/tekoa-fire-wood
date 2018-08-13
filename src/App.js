@@ -64,7 +64,7 @@ handleClick3() {
                 <button onClick={(e) => this.handleClick2(e)} className={this.state.con2 ? "active-link" : "b"}>Find Me</button>
               </li>
               <li id="item3" className="page-collection">
-                <button onClick={(e) => this.handleClick3(e)} className={this.state.con3 ? "active-link" : "b"}>About Naveh</button>
+                <button onClick={(e) => this.handleClick3(e)} className={this.state.con3 ? "active-link" : "b"}>About Neveh</button>
               </li>
             </ul>
           </nav>
