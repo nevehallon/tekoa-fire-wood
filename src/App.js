@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import WorkPortfolio from './WorkPortfolio'
 import FindMe from './FindMe'
 import AboutNaveh from './AboutNaveh'
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -48,7 +47,8 @@ handleClick3() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+        <div className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1 className="App-title"></h1>
         </header>
         <p className="App-intro">

@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 
+.App-header {
+  background-color: rgb(0, 105, 255) !important;
+}
+
 .App-logo {
-  animation: App-logo-spin infinite 2s linear;
-  width: 10%;
+  animation: none !important;
+  -webkit-animation: none !important;
   box-shadow: none !important;
+  background-image: url("https://www.freelogoservices.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfXlYeW8BVCjkKUgzNoYzZM...QZrkSQ7w6wytLhuJxwF4FkChBUGccA=");
+  background-repeat: no-repeat;
+  background-position: center 2px;
+  background-color: var(--grey);
+  min-height: calc(100vh - 100px);
+  margin-bottom: 100px;
+  letter-spacing: -1px;
 }
 
 body {
@@ -14,14 +25,7 @@ body {
 }
 
 body {
-  background-image: url("https://www.freelogoservices.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfXlYeW8BVCjkKUgzNoYzZM...QZrkSQ7w6wytLhuJxwF4FkChBUGccA=");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center 210px;
-  background-color: var(--grey);
-  min-height: calc(100vh - 100px);
-  margin-bottom: 100px;
-  letter-spacing: -1px;
+  
 }
 
 #top-nav {
@@ -189,9 +193,82 @@ h2 {
     width: 100%;
     padding: 0 20px 200px 20px;
   }
+  
+  h2 {
+    display: grid;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: lighter !important;
+    font-size: 14px;
+    line-height: 1.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    text-align: left;
+    font-style: normal;
+    color: #404040;
+    place-self: start;
+    margin: 0;
+  }
 
 }
 
+@media only screen and (max-width: 490px) {
+  h2 {
+    display: grid;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: lighter !important;
+    font-size: 12px;
+    line-height: 1.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    text-align: left;
+    font-style: normal;
+    color: #404040;
+    place-self: start;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 436px) {
+  h2 {
+    display: grid;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: lighter !important;
+    font-size: 10px;
+    line-height: 1.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    text-align: left;
+    font-style: normal;
+    color: #404040;
+    place-self: start;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  h2 {
+    display: grid;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: lighter !important;
+    font-size: 8px;
+    line-height: 1.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    text-align: left;
+    font-style: normal;
+    color: #404040;
+    place-self: start;
+    margin: 0;
+  }
+}
 /* Find Me */
 
 #find-me {
