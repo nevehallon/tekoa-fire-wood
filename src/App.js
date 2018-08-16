@@ -81,6 +81,9 @@ handleClick3() {
             </div> 
           </section>
         </div>
+        <section>
+          <footer>Design & Development by  <a target="_blank" href="https://www.linkedin.com/in/neveh-allon/">Neveh Allon</a></footer>
+        </section>
       </div>
     );
   }

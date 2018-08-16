@@ -268,26 +268,44 @@ class WorkPortfolio extends Component {
 
                 <div className="img-1">
                   <img src={img1} onClick={(e) => this.handleClick1(e)}></img>
+                  <div class="middle">
+                    <div class="text">click for more...</div>
+                  </div>
                   <h2>React Map</h2>
                 </div>
                 <div className="img-2">
                   <img src={img2} onClick={(e) => this.handleClick2(e)}></img>
+                  <div class="middle">
+                    <div class="text">click for more...</div>
+                  </div>
                   <h2>My Reads</h2>
                 </div>
                 <div className="img-3">
                   <img src={img3} onClick={(e) => this.handleClick3(e)}></img>
+                  <div class="middle">
+                    <div class="text">click for more...</div>
+                  </div>
                   <h2>Memory Game</h2>
                 </div>
                 <div className="img-4">
                   <img src={img4} onClick={(e) => this.handleClick4(e)}></img>
+                  <div class="middle">
+                    <div class="text">click for more...</div>
+                  </div>
                   <h2>Personal web-site template</h2>
                 </div>
                 <div className="img-5">
                   <img src={img5} onClick={(e) => this.handleClick5(e)}></img>
+                  <div class="middle">
+                    <div class="text">click for more...</div>
+                  </div>
                   <h2>Feed Reader Testing</h2>
                 </div>
                 <div className="img-6">
                   <img src={img6} onClick={(e) => this.handleClick6(e)}></img>
+                  <div class="middle">
+                    <div class="text">click for more...</div>
+                  </div>
                   <h2>Restaurant Reviews</h2>
                 </div>
             </div>

@@ -17,6 +17,9 @@ class FindMe extends Component {
                     <a target="_blank" href="https://www.linkedin.com/in/neveh-allon/">
                         <i class="fab fa-linkedin fa-5x"></i>
                     </a>
+                    <a target="_blank" href="https://codepen.io/CodePenUserName/">
+                        <i class="fab fa-codepen fa-5x"></i>
+                    </a>
                 </div>
             </div>
         )
