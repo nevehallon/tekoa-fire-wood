@@ -2,12 +2,14 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nevehallon.github.io/my-app",
+  "homepage": "",
   "dependencies": {
     "debug": "^3.1.0",
+    "gulp": "^3.9.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-modal": "^3.5.1",
+    "react-responsive-carousel": "^3.1.43",
     "react-scripts": "1.1.4",
     "rm-modules": "^1.0.2"
   },
@@ -19,6 +21,7 @@
     "deploy": "npm run build && gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "three": "^0.97.0"
   }
 }

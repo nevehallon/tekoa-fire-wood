@@ -245,14 +245,14 @@ class WorkPortfolio extends Component {
                 {
                 data.map( function(i, index) {
                     return (
-                        <div className="item" className={i.this.state[`con${i.con}`] ? "on" : "off"}>
+                        <div className="item" key={i} className={i.this.state[`con${i.con}`] ? "on" : "off"}>
                         <button onClick={i.this.closeModal}>close</button>
-                            <div class="project-meta">
+                            <div className="project-meta">
                             <a target="_blank" href={`${i.url}`}>
                             <img src={`${i.id}`}></img>
                             </a>
-                                <h2 class="project-title">{i.title}</h2>
-                                    <div class="project-description">
+                                <h2 className="project-title">{i.title}</h2>
+                                    <div className="project-description">
                                         <p>{i.description}</p>
                                         <div>
                                         {i.custom}
@@ -268,43 +268,43 @@ class WorkPortfolio extends Component {
 
                 <div className="img-1">
                   <img src={img1} onClick={(e) => this.handleClick1(e)}></img>
-                  <div class="middle">
-                    <div class="text">click for more...</div>
+                  <div className="middle">
+                    <div className="text">click for more...</div>
                   </div>
                   <h2>React Map</h2>
                 </div>
                 <div className="img-2">
                   <img src={img2} onClick={(e) => this.handleClick2(e)}></img>
-                  <div class="middle">
-                    <div class="text">click for more...</div>
+                  <div className="middle">
+                    <div className="text">click for more...</div>
                   </div>
                   <h2>My Reads</h2>
                 </div>
                 <div className="img-3">
                   <img src={img3} onClick={(e) => this.handleClick3(e)}></img>
-                  <div class="middle">
-                    <div class="text">click for more...</div>
+                  <div className="middle">
+                    <div className="text">click for more...</div>
                   </div>
                   <h2>Memory Game</h2>
                 </div>
                 <div className="img-4">
                   <img src={img4} onClick={(e) => this.handleClick4(e)}></img>
-                  <div class="middle">
-                    <div class="text">click for more...</div>
+                  <div className="middle">
+                    <div className="text">click for more...</div>
                   </div>
                   <h2>Personal web-site template</h2>
                 </div>
                 <div className="img-5">
                   <img src={img5} onClick={(e) => this.handleClick5(e)}></img>
-                  <div class="middle">
-                    <div class="text">click for more...</div>
+                  <div className="middle">
+                    <div className="text">click for more...</div>
                   </div>
                   <h2>Feed Reader Testing</h2>
                 </div>
                 <div className="img-6">
                   <img src={img6} onClick={(e) => this.handleClick6(e)}></img>
-                  <div class="middle">
-                    <div class="text">click for more...</div>
+                  <div className="middle">
+                    <div className="text">click for more...</div>
                   </div>
                   <h2>Restaurant Reviews</h2>
                 </div>

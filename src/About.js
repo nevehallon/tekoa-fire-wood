@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import img from './images/NevehAllon.jpeg'
 
-class AboutNaveh extends Component {
+class About extends Component {
 
     render() {
         return (
@@ -9,7 +9,7 @@ class AboutNaveh extends Component {
               <a target="_blank" href="https://www.linkedin.com/in/neveh-allon/"><img src={img}></img></a>  
               <h3>WELCOME!</h3>
               <p className="sum">
-              Hi There from Israel! I am here to help you design your webpage wether you are an individual, artist, business owner or company.
+              Hi there from Israel! I am here to help you design your webpage whether you are an individual, artist, business owner or company.
 </p>
 <p className="sum">
               Feel free to get in touch.
@@ -25,4 +25,4 @@ class AboutNaveh extends Component {
     }
 }
 
-export default AboutNaveh
+export default About
