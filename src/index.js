@@ -210,7 +210,7 @@ var canvas, camera, renderer, scene, particleSystem, baseParticle, mouse;
         this.update = function() {
             this.p.set(
                 mouse[0] / window.innerWidth * 2 - 1,
-                mouse[1] / window.innerHeight * 2 - 1,
+                mouse[1] / window.innerHeight * 2 - 1.2,
                 0.5
             );
             this.p.unproject(camera);

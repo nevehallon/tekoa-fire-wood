@@ -55,7 +55,7 @@ handleClick3() {
     return (
       <div className="App">
         <header className="App-header">
-          <Carousel className="carousel" showIndicators={false} transitionTime={1000} showThumbs={false} infiniteLoop emulateTouch>
+          <Carousel className="carousel" autoPlay={true} showIndicators={false} transitionTime={1000} showThumbs={false} infiniteLoop emulateTouch>
             <div>
                 <img src={fire} />
                 <p className="legend">
