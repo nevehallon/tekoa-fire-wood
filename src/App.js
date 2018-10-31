@@ -12,6 +12,8 @@ import fire2 from './images/fire2.jpg';
 import fire3 from './images/fire3.jpg';
 import fire4 from './images/fire4.jpg';
 import fire5 from './images/fire5.jpg';
+import './styles.global.scss';
+
 class App extends Component {
 
   constructor(props) {
@@ -247,26 +249,26 @@ handleClick3() {
           <nav className="main-nav">
             <ul>
               <li id="item1" className="index-collection">
-                <button onClick={(e) => this.handleClick1(e)} className="active-link" className={this.state.con1 ? "active-link" : "b"}>HOME</button>
+                <button onClick={(e) => this.handleClick1(e)} className="active-link" className={this.state.con1 ? "active-link" : "b"}>ABOUT US</button>
               </li>
               <li id="item2" className="index-collection">
                 <button onClick={(e) => this.handleClick2(e)} className={this.state.con2 ? "active-link" : "b"}>DELIVERY</button>
               </li>
               <li id="item3" className="page-collection">
-                <button onClick={(e) => this.handleClick3(e)} className={this.state.con3 ? "active-link" : "b"}>ABOUT US</button>
+                <button onClick={(e) => this.handleClick3(e)} className={this.state.con3 ? "active-link" : "b"}>HOME</button>
               </li>
             </ul>
           </nav>
 
           <section id="page" role="main" data-content-field="main-content"> 
             <div className={this.state.con1 ? 'ON' : 'OFF'}>
-              <WorkPortfolio className="work-collection"/>
+              <About/> 
             </div>
             <div className={this.state.con2 ? 'ON' : 'OFF'}>
               <Delivery/> 
             </div>
             <div className={this.state.con3 ? 'ON' : 'OFF'}>
-              <About/> 
+              <WorkPortfolio className="work-collection"/>              
             </div> 
           </section>
         </div>
