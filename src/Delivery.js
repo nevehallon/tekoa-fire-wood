@@ -14,18 +14,57 @@ import axios from 'axios';
 
 
 const delivery = ({ handle }) => {
-let url = 'https://script.google.com/macros/s/AKfycbw-iVL9grnngrgRLhoVJNPI2zWre1UbIFqdX8dp5BmOembzai4V/exec';
+  
+ handle = (state) => {
+  let ctrlq;
+  const form = document.forms['contact'];
+  var scriptURL = 'https://script.google.com/macros/s/AKfycbxKVMYwv0lXojEyNqI_1vHJw9I1u2GuzjltE1a7qg/exec'; 
+  var id1 = $("#number").val();
+  var name = $("#firstName").val();
+  var name2 = $("#lastName").val();
+  var email = $("#email").val();
+  var size = $("#size selected").val();
+  var isAgreed = $("#isAgreed").val();
+  var address = $("#address").val();
+  var price = 0;
+  var quantity = $("#quantity selected").val();
+  console.log(id1,
+    name,
+    name2,
+    email,
+    size,
+    isAgreed,
+    address,
+    price,
+    quantity);
+  var url = scriptURL + "?callback=ctrlq&firstname=" + name + "&lastname=" + name2 + "&address=" + address + "&number=" + id1 + "&email=" + email + "&size=" + size + "&quantity=" + quantity + "&isagreed=" + isAgreed + "&price=" + price + "&action=insert";
 
- handle = (props) => {
-  console.log(JSON.stringify(props, null, 2));
-  axios
-  .get(url, { headers: {'Content-Type': 'application/json'}})
-  .then(res=> { 
-    console.log(JSON.stringify(res));
+
+  window.event.preventDefault(); 
+
+   fetch(url, {
+     mode: 'no-cors',
+     method: 'GET', 
+     action: 'insert',
+     headers: {
+    "Accept": "application/json; charset=utf-8",
+    // "Content-Type": "application/x-www-form-urlencoded",
   }
-  )
-    .catch((err)=> {});
-};
+})  
+    .then(response => console.log('Success!', response))  
+    .catch(error => console.error('Error!', error.message));  
+  };  
+  /* window.event.preventDefault();
+  axios({
+    method: 'POST',
+    url: url,
+    data: new FormData(JSON.stringify(props, null, 2))
+  })
+  .then(res=> { 
+    console.log(res);
+  })
+    .catch((err)=> {}); */
+
 
       return (  
 

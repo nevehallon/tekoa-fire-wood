@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "debug": "^3.1.0",
+    "form-serializer": "^2.5.0",
     "gulp": "^3.9.1",
     "jquery": "^3.3.1",
     "react": "^16.4.2",

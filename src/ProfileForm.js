@@ -64,23 +64,29 @@ const ProfileForm = props => {
         </p>
       </Message>
 
-      <Form unstackable onSubmit={handleSubmit}>
+      <Form name="contact" unstackable onSubmit={handleSubmit}>
         <Form.Group widths="equal">
           <Field required
             component={Form.Input}
             label="First name"
             name="firstName"
+            id="firstName"
+            type="text"
             placeholder="First name"
           />
           <Field required
             component={Form.Input}
             label="Last name"
             name="lastName"
+            id="lastName"
+            type="text"
             placeholder="Last name"
           />
           <Field required
             component={Form.Input}
             label="Email"
+            type="email"
+            id="email"
             name="email"
             placeholder="Email"
             /* component={renderSelect}
@@ -99,6 +105,8 @@ const ProfileForm = props => {
           <Field required
           component={renderSelect}
             label="Quantity"
+            type="text"
+            id="quantity" 
             name="quantity"
             options={[
               { key: "1", text: "1", value: "1" },
@@ -118,6 +126,8 @@ const ProfileForm = props => {
           <Field required
           component={renderSelect}
             label="Size"
+            type="text"
+            id="size" 
             name="size"
             options={[
               { key: "4", text: "4 Cubic Meters 10cm x 40cm", value: "4 cubes" },
@@ -131,6 +141,8 @@ const ProfileForm = props => {
           <Field required
             component={Form.Input}
             label="Address"
+            type="text"
+            id="address" 
             name="address"
             placeholder="Address"
           />
@@ -141,17 +153,20 @@ const ProfileForm = props => {
           <Label as='a'>₪0.00</Label>
         </Label.Group>
 
-        <Field
+        <Field required
+          type="number"
+          id="number" 
+          placeholder="Enter your phone number"  
           component={renderTextArea}
-          label="About"
-          name="about"
-          placeholder="Tell us more about you..."
+          label="Phone"
+          name="number"
         />
 
         <Field
           component={renderCheckbox}
           label="I agree to the Terms and Conditions"
           name="isAgreed"
+          id="isAgreed"
         />
 
         <Form.Group inline>
