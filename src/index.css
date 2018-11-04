@@ -19,11 +19,13 @@
 }
 
 .carousel.carousel-slider {
+  border-radius: 15px;
+  min-height: 415px;
+  padding: 1em 0em; 
   position: unset !important;
-  margin: -20px -20px -20px -8px !important;
-  width: 105% !important;
-  height: 230% !important;
-  background-color: #0000 !important;
+  /* margin: -20px -20px -20px -8px !important;
+  width: 105% !important; */
+  background-color: rgba(79, 0, 0, 0.653) !important;
 }
 
 .carousel>button {
@@ -362,7 +364,7 @@ h2 {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    padding: 0 20px 200px 20px;
+    padding: 0 0 200px 0;
   }
 
 }
@@ -528,6 +530,8 @@ h2 {
 }
 
 .sum {
+  border-radius: 15px;
+  background-color: rgba(79, 0, 0, 0.653) !important;
   font-family: "Proxima Nova", sans-serif;
   text-align: center;
   font-size: 20px;
@@ -553,13 +557,16 @@ h2 {
 }
 
 .color1 {
-  color: brown;
+  color: #ffc107;
   font-size: 22px;
   font-style: normal;
   text-decoration: underline;
 }
 
 footer {
+  border-radius: 15px 15px 0 0;
+  background-color: rgba(79, 0, 0, 0.653) !important;
+  height: 222px;
   border-bottom: 2px solid #000;
   font-size: 1em;
   letter-spacing: .06em;
@@ -1273,4 +1280,16 @@ body, html{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   font-size: 22px;
+}
+
+
+.ui.form .fields {
+  display: grid !important;
+  grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+#About > a {
+  padding: 22px;
+  border-radius: 15px;
+  background-color: rgba(79, 0, 0, 0.653) !important;
 }

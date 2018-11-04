@@ -1,9 +1,9 @@
 /*jshint esversion: 6 */ 
 import React, { Component } from 'react';
-import WorkPortfolio from './WorkPortfolio';
 import Delivery from './Delivery';
 import About from './About';
 import './App.css';
+import CommentBox from './CommentBox'
 import logo from './logo.svg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -255,7 +255,7 @@ handleClick3() {
                 <button onClick={(e) => this.handleClick2(e)} className={this.state.con2 ? "active-link" : "b"}>DELIVERY</button>
               </li>
               <li id="item3" className="page-collection">
-                <button onClick={(e) => this.handleClick3(e)} className={this.state.con3 ? "active-link" : "b"}>HOME</button>
+                <button onClick={(e) => this.handleClick3(e)} className={this.state.con3 ? "active-link" : "b"}>Reviews</button>
               </li>
             </ul>
           </nav>
@@ -268,7 +268,7 @@ handleClick3() {
               <Delivery/> 
             </div>
             <div className={this.state.con3 ? 'ON' : 'OFF'}>
-              <WorkPortfolio className="work-collection"/>              
+              <CommentBox />              
             </div> 
           </section>
         </div>
