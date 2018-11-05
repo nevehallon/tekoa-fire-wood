@@ -2,7 +2,7 @@
   "name": "Tekoa-firewood",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nevehallon.github.io/Tekoa-firewood/",
+  "homepage": "https://nevehallon.github.io/",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
