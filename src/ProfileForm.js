@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Field, reduxForm } from "redux-form";
-import { Form, Message, Label, Dropdown } from "semantic-ui-react";
+import { Form, Message, Label } from "semantic-ui-react";
 
 const renderCheckbox = field => (
   <Form.Checkbox
@@ -42,7 +42,7 @@ const renderTextArea = field => (
 );
 
 const ProfileForm = props => {
-  const { handleSubmit, reset } = props;
+  const { reset } = props;
 
   return (
     <Fragment>
@@ -66,7 +66,7 @@ const ProfileForm = props => {
         </p>
       </Message>
 
-      <Form name="contact" unstackable onSubmit={handleSubmit}>
+      <Form name="contact" unstackable>
         <Form.Group widths="equal">
           <Field required
             component={Form.Input}

@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://nevehallon.github.io/Tekoa-firewood/client",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
@@ -45,5 +45,10 @@
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "three": "^0.97.0"
-  }
+  },
+  "proxy": {
+    "/api/": {
+        "target": "http://localhost:3001"
+      }
+    }
 }
