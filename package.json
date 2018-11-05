@@ -46,9 +46,5 @@
     "gh-pages": "^1.2.0",
     "three": "^0.97.0"
   },
-  "proxy": {
-    "/api/": {
-        "target": "http://localhost:3001"
-      }
-    }
+  "proxy": "http://localhost:3001"
 }
