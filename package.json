@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://nevehallon.github.io/Tekoa-firewood/",
   "dependencies": {
+    "ajv": "^6.5.5",
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
