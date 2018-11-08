@@ -1,8 +1,8 @@
 {
-  "name": "Tekoa-firewood",
+  "name": "Tekoa-fire-wood",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nevehallon.github.io/Tekoa-firewood/",
+  "homepage": "https://nevehallon.github.io/Tekoa-fire-wood/",
   "dependencies": {
     "ajv": "^6.5.5",
     "axios": "^0.18.0",

@@ -42,7 +42,7 @@ const renderTextArea = field => (
 );
 
 const ProfileForm = props => {
-  const { reset } = props;
+  const { handleSubmit, reset } = props;
 
   return (
     <Fragment>
@@ -66,7 +66,7 @@ const ProfileForm = props => {
         </p>
       </Message>
 
-      <Form name="contact" unstackable>
+      <Form onSubmit={handleSubmit} name="contact" unstackable>
         <Form.Group widths="equal">
           <Field required
             component={Form.Input}
